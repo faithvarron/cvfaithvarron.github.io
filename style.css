@@ -3,9 +3,8 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 /* Set the width of the sidebar to 120px */
 .w3-sidebar {width: 120px;background: #222;}
 /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
-#main {margin-left: 120px}
+#main {margin-left: 120px;}
 /* Remove margins from "page content" on small screens */
-
 .w3-sidebar{
     position: absolute !important;
 }
@@ -13,21 +12,16 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     position: relative;
     padding: 13px;
 }
-
   /* Make the image fully responsive */
   .carousel-inner img {
     width: 100%;
     height: auto;
 }
-
-
  /* Make content full responsive */
-@media (min-width:320px) and (max-width:768px){
+@media (min-width:320px) and (max-width:600px){
     #main{
-        margin:0 auto !important;
+        margin: 0 auto !important;
     }
-   
-}
 @media (min-width:320px) and (max-width:1024px){
     .carousel-inner img {
         height: auto;
