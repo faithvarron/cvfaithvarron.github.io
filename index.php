@@ -29,10 +29,10 @@
       <!-- The slideshow -->
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./images/faithatchurch.jpg" alt="Los Angeles">
+          <img src="./images/faithatchurch.jpg" alt="Church">
         </div>
         <div class="carousel-item">
-          <img src="./images/faithatresto.jpg" alt="Chicago">
+          <img src="./images/butterfly_shot.jpg" alt="Butterfly">
         </div>
       </div>
       
